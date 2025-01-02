@@ -1,6 +1,6 @@
 import { IsIn, IsString, IsOptional } from 'class-validator';
 import { CreateTaskDto } from './create-task.dto';
-import { TaskStatus } from '../task.model';
+import { TaskStatus } from '../constants/tasks.constant';
 
 export class UpdateTaskDto extends CreateTaskDto {
   @IsString()
